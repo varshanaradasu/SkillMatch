@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard - Project Allocation</title>
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+
+  <div class="main-container">
+    <div class="top-row">
+      <div class="dashboard-header">
+        <h1>Admin Dashboard</h1>
+        <div class="nav-links">
+          <a href="viewemployees.html">View Employees</a>
+          <a href="viewprojects.html">View Projects</a>
+          <a href="viewallocations.html">View Allocations</a>
+          <a href="exportallocations.html">Export Allocations</a>
+          <a href="viewstatuses.html">View Project Statuses</a>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-row">
+      <div class="left-column">
+        <form id="addUserForm">
+          <h2>Add User</h2>
+          <input placeholder="Name" id="name" required />
+          <input placeholder="Email" id="email" type="email" required />
+          <input placeholder="Password" id="password" type="password" required />
+          <select id="role" required>
+            <option value="">Select Role</option>
+            <option value="employee">Employee</option>
+            <option value="admin">Admin</option>
+          </select>
+          <input placeholder="Skills (if employee)" id="skills" />
+          <input placeholder="Skill Rating (1-10)" id="skill_rating" type="number" min="1" max="10" />
+          <button type="submit">Add User</button>
+        </form>
+      </div>
+      <div class="right-column">
+        <form id="addProjectForm">
+          <h2>Add Project</h2>
+          <textarea placeholder="Project Description" id="proj_desc" rows="3" required></textarea>
+          <input placeholder="Project Title" id="proj_title" required />
+          <input placeholder="Required Skills (comma separated)" id="req_skills" />
+          <input placeholder="Project Capacity" id="proj_cap" type="number" min="1" required />
+          <button type="submit">Add Project</button>
+        </form>
+
+        <div class="auto-allocate-container">
+          <button onclick="autoAllocate()">Auto Allocate Projects</button>
+          <button onclick="logout()" style="float: right; background-color: red; color: white; border: none; padding: 8px 12px; margin-right: 20px; border-radius: 5px; cursor: pointer;">
+            Logout
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - SkillMatch Pro</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f5f7fa;
+      color: #2c3e50;
+    }
+
+    header {
+      background: #1e3a8a;
+      padding: 20px 60px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    .nav-links li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links li a:hover,
+    .nav-links li a.active {
+      color: #a5c9ff;
+    }
+
+    .about-section {
+      padding: 80px 60px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .container h1 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+
+    .container p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">SkillMatch Pro</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="about-section">
+    <div class="container">
+      <h1>About SkillMatch Pro</h1>
+      <p>
+        SkillMatch Pro is a smart project allocation system that helps organizations manage project assignments efficiently.
+        It allows administrators to add both projects and employees into the system. Based on the required skills for each project
+        and the individual skill sets of employees, the system automatically allocates the most suitable employees to the respective projects.
+      </p>
+      <p>
+        Employees can log in to view their assigned projects and update the status of their tasks. This streamlines project management,
+        improves transparency, and ensures optimal utilization of talent across the organization.
+      </p>
+    </div>
+  </section>
+</body>
+</html>
