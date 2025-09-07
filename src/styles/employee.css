@@ -1,0 +1,110 @@
+.header-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #4ca1af;
+  padding: 40px 50px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin: 0px;
+}
+
+.header-row h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.logout-btn {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  background-color: #ff0c04;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+  width: auto;
+}
+
+.logout-btn:hover {
+  background-color: #c9302c;
+}
+
+.cards-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card p {
+  color: #555;
+  font-size: 15px;
+}
+
+label {
+  font-weight: 600;
+  color: #333;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.card button {
+  width: 100%;
+  background-color: #4ca1af;
+  color: white;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card button:hover {
+  background-color: #3b8a99;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #4ca1af;
+  color: white;
+}
