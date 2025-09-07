@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/SkillMatch/static/css/main.27739d87.css",
-    "main.js": "/SkillMatch/static/js/main.e0f56b70.js",
+    "main.js": "/SkillMatch/static/js/main.83fcd8fe.js",
     "index.html": "/SkillMatch/index.html",
     "main.27739d87.css.map": "/SkillMatch/static/css/main.27739d87.css.map",
-    "main.e0f56b70.js.map": "/SkillMatch/static/js/main.e0f56b70.js.map"
+    "main.83fcd8fe.js.map": "/SkillMatch/static/js/main.83fcd8fe.js.map"
   },
   "entrypoints": [
     "static/css/main.27739d87.css",
-    "static/js/main.e0f56b70.js"
+    "static/js/main.83fcd8fe.js"
   ]
 }
