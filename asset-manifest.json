@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SkillMatch/static/css/main.27739d87.css",
+    "main.js": "/SkillMatch/static/js/main.e0f56b70.js",
+    "index.html": "/SkillMatch/index.html",
+    "main.27739d87.css.map": "/SkillMatch/static/css/main.27739d87.css.map",
+    "main.e0f56b70.js.map": "/SkillMatch/static/js/main.e0f56b70.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27739d87.css",
+    "static/js/main.e0f56b70.js"
+  ]
+}
